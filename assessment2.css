@@ -1,0 +1,104 @@
+:root {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.first{
+	display: block;
+	margin: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.banner .card {
+
+  background-image: url("giphy.gif");
+  border: 1px solid #2c2c2c;
+  border-radius: 1px;
+  box-shadow: 0px 3px 20px 2px #35eea4;
+  display: block;
+  height: 600px;
+  background-repeat: repeat;
+  }
+.banner .card .heading {
+    color: #35eea4;
+    font-family: "Playfair Display", serif;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    padding: 40px; }
+ .banner .card .subheading{
+ 	color: white;
+ 	font-size: 34px;
+ 	font-weight: 400;
+ 	padding: 20px;
+ 	padding-left: 50px;
+ }
+
+
+ .newcont{
+    flex-grow: 1;
+ }
+
+ .newcont .newcard{
+ 	background-image: url("CAPTURE.gif");
+ 	border-radius: 1px;
+ 	height: 450px;
+ 	background-repeat: no-repeat;
+
+ }
+
+ .newcont .newcard .newheading{
+ 	color: red;
+ 	font-size: 20px;
+ 	font-weight: 400;
+ 	padding: 20px;
+    margin-top: 0px;
+ }
+
+ .thirdone{
+ flex-grow: 3;
+ }
+
+ .thirdone .thirdcard{
+ 	background-image: url("third.gif");
+ 	border:1px solid white;
+ 	border-radius: 1px;
+ 	display: block;
+ 	background-repeat: no-repeat;
+ 	height: 450px;
+ }
+ .thirdone .thirdcard .thirdheading{
+ 	color: #b107cb;
+ 	font-size: 20px;
+ 	font-weight: 400;
+ 	padding: 20px;
+}
+
+.fourthone{
+	display:block;
+	margin: 10px;
+}
+.fourthone .fourthcard{
+	background-image: url("project.gif");
+    background-size: cover;
+	border: 1px solid #2c2c2c;
+	border-radius: 1px;
+    box-shadow: 0px 3px 20px 2px red;
+    display: block;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.fourthone .fourthcard .fourthheading{
+	color: blue;
+ 	font-size: 34px;
+ 	font-weight: 400;
+ 	padding: 20px;
+ 	padding-left: 50px;
+    margin-top: 0px;
+}
